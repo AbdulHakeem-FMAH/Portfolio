@@ -168,13 +168,15 @@ export const AboutSection = () => {
         </div>
       </Card>
       <Card className="h-[320px] p-0 relative md:col-span-2 lg:col-span-1">
-        <Image src={mapImage} alt="map" className="h-full w-full object-cover"/>
-        <div className="absolute top-[60%] left-[41%] -translate-x-1/2 -translate-y-1/2 size-20 rounded-full after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
-        <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
-          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10"></div>
-          <Image src={SmileMemoji} alt="smiling memoji" className="size-20"/>
-        </div>
-      </Card>
+  <a href="https://maps.app.goo.gl/9rkTrWbkMgC7x5tQ9" target="_blank" rel="noopener noreferrer">
+    <Image src={mapImage} alt="map" className="h-full w-full object-cover"/>
+    <div className="absolute top-[60%] left-[41%] -translate-x-1/2 -translate-y-1/2 size-20 rounded-full after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
+      <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-20 animate-ping [animation-duration:2s]"></div>
+      <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 -z-10"></div>
+      <Image src={SmileMemoji} alt="smiling memoji" className="size-20"/>
+    </div>
+  </a>
+</Card>
       </div>
      </div>
   </div>
