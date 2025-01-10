@@ -16,7 +16,7 @@ export const ContactSection = () => {
               <p className="text-sm md:text-base mt-2">Let’s connect and explore exciting opportunities together! Whether you’re looking to hire a dedicated professional, have a project idea, or just want to chat, I’m here for it. Let’s collaborate and create something extraordinary!</p>
             </div>
             <div>
-              <a href="https://www.linkedin.com/in/abdulhakeem2728/">
+              <a href="mailto:abdul27hakeem28@gmail.com">
               <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
                 <span className="font-semibold">Contact Me</span>
                 <ArrowUpRightIcon className="size-4" />
