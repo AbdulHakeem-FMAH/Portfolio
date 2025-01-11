@@ -1,3 +1,4 @@
+"use client";
 import memojiImage from "../assets/images/memoji-computer.png";
 import Image from "next/image";
 import ArrowDown from "../assets/icons/arrow-down.svg";
@@ -95,6 +96,35 @@ export const HeroSection = () => {
             </div>
             <div className="text-sm font-medium">Available for new projects</div>
           </div>
+
+          <div className="text-center mt-8">
+  <div className="text-4xl font-bold text-white animate-pulse text-glow">
+    <span className="text-emerald-500">Hi there,</span> This is <span className="text-emerald-300">Abdul Hakeem!</span>
+  </div>
+</div>
+
+<style jsx>{`
+  .animate-pulse {
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      text-shadow: 0 0 2px rgba(255, 255, 255, 0.4), 0 0 10px rgba(255, 255, 255, 0.2), 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+    50% {
+      text-shadow: 0 0 4px rgba(255, 255, 255, 0.6), 0 0 12px rgba(255, 255, 255, 0.3), 0 0 18px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+      text-shadow: 0 0 2px rgba(255, 255, 255, 0.4), 0 0 10px rgba(255, 255, 255, 0.2), 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  .text-glow {
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5), 0 0 8px rgba(255, 255, 255, 0.3);
+  }
+`}</style>
+          
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center font-bold mt-8 tracking-wide">Building Exceptional User Experiences</h1>
