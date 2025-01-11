@@ -8,7 +8,7 @@ const footerLinks = [
   },
   {
     title: 'GitHub',
-    href: 'https://github.com/AbdulHakeem-FMAH',
+    href: '',
   },
   {
     title: 'Instagram',
