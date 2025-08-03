@@ -16,10 +16,10 @@ const portfolioProjects = [
     title: "Employee Management CRUD Application",
     results: [
       { title: "Backend : SpringBoot, MySQL" },
-      { title: "Frontend : HTML, CSS, JavaSript" },
+      { title: "Frontend : ReactJs, TailwindCSS" },
       { title: "Deployed a FullStack Web Application" },
     ],
-    link: "https://abdulhakeem-fmah.github.io/EmployeeManagement/",
+    link: "https://employee-management-one-tau.vercel.app/",
     image: darkSaasLandingPage,
   },
   {
