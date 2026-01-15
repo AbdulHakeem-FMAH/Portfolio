@@ -38,10 +38,10 @@ const toolboxItems = [
     title: 'Python',
     iconType: PythonIcon,
   },
-  {
-    title: 'AutoGluon',
-    iconType: AutoGluonIcon,
-  },
+  // {
+  //   title: 'AutoGluon',
+  //   iconType: AutoGluonIcon,
+  // },
   {
     title: 'Fast API',
     iconType: FastApiIcon,
@@ -50,10 +50,10 @@ const toolboxItems = [
     title: 'Flask',
     iconType: FlaskIcon,
   },
-  {
-    title: 'n8n',
-    iconType: N8NIcon,
-  },
+  // {
+  //   title: 'n8n',
+  //   iconType: N8NIcon,
+  // },
   {
     title: 'OpenAI',
     iconType: OpenAiIcon,
