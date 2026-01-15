@@ -19,6 +19,11 @@ import CpIcon from "../assets/icons/C.svg";
 import VsIcon from "../assets/icons/Visual Studio Code (VS Code).svg";
 import InteljIcon from "../assets/icons/IntelliJ IDEA.svg";
 import MavenIcon from "../assets/icons/Apache Maven.svg";
+import AutoGluonIcon from "../assets/icons/ag.svg";
+import FastApiIcon from "../assets/icons/fastapi.svg";
+import FlaskIcon from "../assets/icons/flask.svg";
+import N8NIcon from "../assets/icons/n8n.svg";
+import OpenAiIcon from "../assets/icons/openai.svg";
 import { TechIcon } from "@/components/TechIcon";
 import mapImage from "@/assets/images/HakMap.png";
 import SmileMemoji from "@/assets/images/Memoji3.png";
@@ -30,6 +35,30 @@ import ArrowUpRightIcon from "../assets/icons/arrow-up-right.svg";
 
 const toolboxItems = [
   {
+    title: 'Python',
+    iconType: PythonIcon,
+  },
+  {
+    title: 'AutoGluon',
+    iconType: AutoGluonIcon,
+  },
+  {
+    title: 'Fast API',
+    iconType: FastApiIcon,
+  },
+  {
+    title: 'Flask',
+    iconType: FlaskIcon,
+  },
+  {
+    title: 'n8n',
+    iconType: N8NIcon,
+  },
+  {
+    title: 'OpenAI',
+    iconType: OpenAiIcon,
+  },
+  {
     title: 'Core Java',
     iconType: JavaIcon,
   },
@@ -40,10 +69,6 @@ const toolboxItems = [
   {
     title: 'MySQL',
     iconType: MySqlIcon,
-  },
-  {
-    title: 'Python',
-    iconType: PythonIcon,
   },
   {
     title: 'C Programming',
