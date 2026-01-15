@@ -132,7 +132,7 @@ export const HeroSection = () => {
             Electronics and Communication Engineering graduate with hands-on experience at the intersection of technology and imagination. 
             From electronic systems and communication networks to AI-driven solutions and IoT devices, I build systems where data flows, 
             decisions emerge, and ideas come alive. Beyond tech, I write crafting content that informs, inspires, and sparks curiosity. 
-            I'm eager to create innovative solutions that bridge the gap between concept and reality
+            I&apos;m eager to create innovative solutions that bridge the gap between concept and reality
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
