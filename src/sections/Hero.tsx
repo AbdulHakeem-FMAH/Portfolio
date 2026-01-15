@@ -129,10 +129,10 @@ export const HeroSection = () => {
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center font-bold mt-8 tracking-wide">Building Exceptional User Experiences</h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            Electronics and Communication Engineering graduate with hands-on experience in electronic systems, communication
-            protocols, circuit design and in software development, specializing in Java, Spring Boot, and API integration. Proficient in
-            developing scalable and secure applications using modern technologies. Seeking an entry-level role to leverage my
-            technical expertise and contribute to innovative backend solutions
+            Electronics and Communication Engineering graduate with hands-on experience at the intersection of technology and imagination. 
+            From electronic systems and communication networks to AI-driven solutions and IoT devices, I build systems where data flows, 
+            decisions emerge, and ideas come alive. Beyond tech, I write crafting content that informs, inspires, and sparks curiosity. 
+            I'm eager to create innovative solutions that bridge the gap between concept and reality
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
