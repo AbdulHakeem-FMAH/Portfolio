@@ -35,9 +35,9 @@ const testimonials = [
   },
   {
     name: "TATA ELXSI",
-    position: "Developer Trainee",
-    time: "January 2024 to June 2024",
-    text: "Developed a CRUD application leveraging Spring Boot, SQL, and Core Java, while designing and integrating RESTful APIs to enhance data processing efficiency and support legacy systems. Gained proficiency in Microservices, OOP principles, and JavaScript",
+    position: "Engineer",
+    time: "June 2025 to Present",
+    text: "Developed a scalable AI model lifecycle platform using FastAPI, PostgreSQL, MinIO, PyCaret, and AutoGluon, enabling automated dataset ingestion, EDA generation, model training, retraining, versioning, and prediction through secure RESTful APIs. Implemented modular microservices architecture with intelligent workflow automation using agentic orchestration tools",
     avatar: tel,
   },
 ];
